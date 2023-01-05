@@ -19,7 +19,6 @@
 }
 
 .header {
-    max-width: 1600px;
     margin: 0 auto;
     background: #FFF8F3;
     background-image: url('../images/header_bg.png'), url('../images/developer.png');
@@ -159,7 +158,8 @@ section {
     display: flex;
     gap: 24px;
 }
-.resume-item{
+
+.resume-item {
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -182,7 +182,46 @@ section {
     color: #757575;
     font-size: 16px;
 }
-.resume-button{
+
+.resume-button {
     margin-top: 50px;
     text-align: center;
+}
+
+/* Contact Styles */
+.contact {
+    background: #FFF8F3;
+    display: flex;
+    gap: 117px;
+    padding: 130px 226px;
+}
+
+.contact .section-title {
+    text-align: left;
+}
+
+.contact input[type="text"],
+input[type="email"],
+textarea {
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+input {
+    height: 64px;
+}
+
+.message-form {
+    margin-top: 28px;
+}
+
+.contact p {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.contact a {
+    text-decoration: none;
 }
